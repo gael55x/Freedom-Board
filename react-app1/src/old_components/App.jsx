@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import PostsList from './components/PostList';
-import MainHeader from './components/MainHeader';
+import PostsList from '../components/PostList';
+import MainHeader from '../components/MainHeader';
 
 function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
